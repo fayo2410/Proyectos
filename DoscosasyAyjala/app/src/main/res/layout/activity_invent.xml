@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_invent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.invent.doscosasyayjala.Invent"
+    android:background="#b33f1b">
+
+    <TextView
+        android:text="INGRESA EL PRODUCTO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/codbarras"
+        android:hint="Código de Barras"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/codbarras"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nombre"
+        android:hint="Nombre"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/nombre"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/costo"
+        android:hint="Costo"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/costo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/responsable"
+        android:hint="Responsable"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/ubicacion"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/descripcion"
+        android:hint="Descripción"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/descripcion"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/observaciones"
+        android:hint="Observaciones"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ubicacion"
+        android:hint="Ubicación"
+        android:layout_below="@+id/responsable"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColorHint="@android:color/background_light" />
+
+    <Button
+        android:text="Guardar"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/guardar"
+        android:layout_below="@+id/observaciones"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textColor="#b3401d"
+        android:textSize="20sp"
+        android:onClick="Guardar" />
+</RelativeLayout>

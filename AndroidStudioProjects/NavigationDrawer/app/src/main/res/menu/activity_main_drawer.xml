@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_agregar"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="AGREGAR" />
+        <item
+            android:id="@+id/nav_eliminar"
+            android:icon="@drawable/ic_delete_forever_black_24dp"
+            android:title="ELIMINAR" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="CONSULTAR" />
+    </group>
+
+    <item android:title="Comunícate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="ACERCA DE..." />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="CONTACTO" />
+        </menu>
+    </item>
+
+</menu>

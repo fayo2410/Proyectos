@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="com.example.jrafaelmzg.navigationdrawer.Agregar">
+
+    <EditText
+        android:id="@+id/textCompleto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="73dp"
+        android:hint="Nombre Completo"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#141111"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/textCelular"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="115dp"
+        android:hint="Número Celular"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#141111"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/textCorreo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="158dp"
+        android:hint="Correo Electrónico"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#141111"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/menuAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            app:menu_colorNormal="@color/colorAccent"
+            app:menu_colorPressed="@color/Rojovino"
+            app:menu_fab_label="Menu">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fabguardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_person_add_black_24dp"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_label="Guardar"
+                app:fab_size="mini" />
+        </com.github.clans.fab.FloatingActionMenu>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/menuAgregar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="106dp"
+            android:layout_marginStart="106dp"
+            app:srcCompat="@drawable/analytics" />
+    </RelativeLayout>
+
+</FrameLayout>

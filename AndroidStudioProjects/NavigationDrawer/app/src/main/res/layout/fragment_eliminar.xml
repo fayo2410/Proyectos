@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Rojovino"
+    android:orientation="vertical"
+    tools:context="com.example.jrafaelmzg.navigationdrawer.Eliminar">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/listaagenda"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="100dp"
+            android:cacheColorHint="@android:color/background_light"
+            android:foregroundTint="@color/iconos"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

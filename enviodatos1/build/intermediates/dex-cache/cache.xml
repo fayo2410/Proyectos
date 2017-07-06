@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Win10Pro\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Win10Pro\AndroidStudioProjects\enviodatos1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_82af908f44d8b9cdc01d29b6be2143be817aa5d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Win10Pro\AndroidStudioProjects\enviodatos1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="160ca3f08054d458785724acf06eafda32026891">
+        <dex dex="C:\Users\Win10Pro\AndroidStudioProjects\enviodatos1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cabff3e875efa5064fa47e6aa937fe7c8a50707b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Win10Pro\AndroidStudioProjects\enviodatos1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2eb676931f935974e9d64ca591af146a97643246">
+        <dex dex="C:\Users\Win10Pro\AndroidStudioProjects\enviodatos1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5cbcd02ddb52ebd15994529e9d22461c30dc64c4\classes.dex" />
+    </item>
+
+</items>

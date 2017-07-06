@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jrafaelmzg.chatproyect.ChatActivity"
+    android:background="#369681">
+
+    <LinearLayout
+        android:background="#1f564c"
+        android:radius="30pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="145dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jose Rafael Mendez G"
+            android:textColor="@color/colorwhite"
+            android:textSize="26sp"
+            android:layout_gravity="center"
+            android:id="@+id/textView"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+            android:textColorHint="@color/colorwhite"
+            android:drawableLeft="@drawable/ic_action_user"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/colorwhite"
+            android:drawableLeft="@drawable/ic_action_lock_closed"/>
+        <Button
+            android:theme="@style/Botoncolores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="INGRESAR"
+            android:textColorHint="@color/colorwhite"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

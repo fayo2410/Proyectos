@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lalo.suma.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextNumero1"
+        android:layout_marginTop="64dp"
+        android:layout_alignParentTop="true"
+        android:hint="Escribe un número" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editTextNumero2"
+        android:layout_below="@+id/editTextNumero1"
+        android:layout_alignStart="@+id/editTextNumero1"
+        android:layout_marginTop="64dp"
+        android:hint="Escribe un número" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button3Division"
+        android:layout_alignParentEnd="false"
+        android:layout_below="@+id/editTextNumero2"
+        android:layout_alignParentStart="false">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESTA"
+            android:id="@+id/buttonResta"
+            android:onClick="resta"
+            android:layout_alignTop="@+id/buttonSuma"
+            android:layout_alignEnd="@+id/button2Multiplicacion"
+            android:layout_gravity="right" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MULTIPLICACIÓN"
+            android:id="@+id/button2Multiplicacion"
+            android:layout_below="@+id/buttonResta"
+            android:layout_centerHorizontal="true"
+            android:onClick="multiplicacion" />
+
+        <Button
+            android:layout_width="119dp"
+            android:layout_height="73dp"
+            android:text="DIVISIÓN"
+            android:id="@+id/button3Division"
+            android:layout_below="@+id/button2Multiplicacion"
+            android:onClick="division"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUMA"
+            android:id="@+id/buttonSuma"
+            android:layout_below="@+id/editTextNumero2"
+            android:layout_marginTop="60dp"
+            android:onClick="suma"
+            android:layout_toStartOf="@+id/button2Multiplicacion"
+            android:layout_gravity="right" />
+    </RadioGroup>
+
+</RelativeLayout>

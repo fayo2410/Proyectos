@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46474e</color>
+    <color name="colorPrimaryDark">#1b1d26</color>
+    <color name="colorAccent">#324a5e</color>
+    <color name="colorTexto">#46474e</color>
+    <color name="iconos">#ffffff</color>
+    <color name="floatings">#0dbeac</color>
+    <color name="Rojovino">#6f7681</color>
+</resources>

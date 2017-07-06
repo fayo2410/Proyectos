@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jrafaelmzg.acttelefonos.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtid"
+        android:hint="Id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/txtid"
+        android:layout_alignRight="@+id/txtid"
+        android:layout_alignEnd="@+id/txtid"
+        android:id="@+id/txtmarca"
+        android:hint="Marca" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/txtmarca"
+        android:layout_alignRight="@+id/txtmarca"
+        android:layout_alignEnd="@+id/txtmarca"
+        android:id="@+id/txtmodelo"
+        android:hint="Modelo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/txttamaño"
+        android:layout_alignRight="@+id/txttamaño"
+        android:layout_alignEnd="@+id/txttamaño"
+        android:id="@+id/txtdescripcion"
+        android:hint="Descripción" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txttamaño"
+        android:layout_below="@+id/txtmodelo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Tamaño" />
+
+    <Button
+        android:text="act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btneliminar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btnactualizar"
+        android:layout_toRightOf="@+id/btneliminar"
+        android:layout_toEndOf="@+id/btneliminar" />
+
+    <Button
+        android:text="AGREGAR"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnagregar"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="88dp" />
+
+    <Button
+        android:text="Consul"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnconsul"
+        android:layout_alignBaseline="@+id/btnagregar"
+        android:layout_alignBottom="@+id/btnagregar"
+        android:layout_toRightOf="@+id/btnagregar"
+        android:layout_toEndOf="@+id/btnagregar"
+        android:layout_width="90dp" />
+
+    <Button
+        android:text="ELIMINAR"
+        android:layout_height="wrap_content"
+        android:id="@+id/btneliminar"
+        android:layout_alignBaseline="@+id/btnconsul"
+        android:layout_alignBottom="@+id/btnconsul"
+        android:layout_toRightOf="@+id/btnconsul"
+        android:layout_toEndOf="@+id/btnconsul"
+        android:layout_width="88dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txviwconsul" />
+
+    <Button
+        android:text="buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnbuscar"
+        android:layout_above="@+id/txviwconsul"
+        android:layout_toRightOf="@+id/btnagregar"
+        android:layout_toEndOf="@+id/btnagregar" />
+
+    <Button
+        android:text="Limpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnbuscar"
+        android:layout_toRightOf="@+id/btnconsul"
+        android:layout_toEndOf="@+id/btnconsul"
+        android:id="@+id/btnlimpiar" />
+
+</RelativeLayout>
